@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>防犯マス取りゲーム レベル１</title>
+<link rel="stylesheet" href="game.css">
+</head>
+<body>
+<div class="playerBar">
+  <div class="playerSide red" id="redSide"><span class="turnArrow">▶</span> 赤チーム</div>
+  <div class="playerSide blue inactive" id="blueSide">青チーム <span class="turnArrow">◀</span></div>
+</div>
+<div style="text-align:center;padding:8px 0 4px">
+  <span class="badge">レベル１</span>
+</div>
+<div class="board" id="board"></div>
+<footer>hariolab.com（摂南大学針尾研究室）</footer>
+
+<div class="overlay" id="qOverlay">
+  <div class="overlayBox">
+    <p class="qText" id="qText"></p>
+    <div id="choices"></div>
+    <p class="feedback" id="feedback"></p>
+  </div>
+</div>
+
+<div class="overlay" id="resultOverlay">
+  <div class="overlayBox resultBox">
+    <div class="resultTitle" id="resultTitle"></div>
+    <div class="wrongList" id="wrongList"></div>
+    <button class="resetBtn" id="resetBtn">もう一度あそぶ</button>
+  </div>
+</div>
+
+<script src="questions_low.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
