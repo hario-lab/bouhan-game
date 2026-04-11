@@ -51,3 +51,10 @@
 - questions_high.js   … 高学年向け問題
 - admin.html          … 問題編集ツール（ローカル専用）
 
+## Citation / DOI
+本教材の正式な DOI は以下の通りです：
+- DOI： https://doi.org/10.5281/zenodo.19510110
+- 公開URL（Web版）：https://hario-lab.github.io/bouhan-game/
+
+
+
